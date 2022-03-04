@@ -1,7 +1,7 @@
 
 Cypress.Commands.add('userLogin', () =>
 {
-  cy.visit('https://civey.com/');
+ 
   cy.get('[href^="/login"]').contains('Anmelden').click();
   cy.get('input[type="email"]').type('nikhil.etc@gmail.com');
   cy.submit();
