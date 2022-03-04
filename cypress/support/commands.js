@@ -6,7 +6,7 @@ Cypress.Commands.add('userLogin', () =>
   cy.get('input[type="email"]').type('nikhil.etc@gmail.com');
   cy.submit();
   cy.intercept('POST', /\/v1\/auth\/login/).as('waitForLogin');
-  cy.get('input[type="password"]').type('Y3h3TYJ!eM6EkB6');
+  cy.get('input[type="password"]').type('password');
   cy.submit();
   cy.wait('@waitForLogin');
 });
