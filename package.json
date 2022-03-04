@@ -1,0 +1,25 @@
+{
+  "name": "civey-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhiletc/task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhiletc/task/issues"
+  },
+  "homepage": "https://github.com/nikhiletc/task#readme",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^5.11.1"
+  },
+  "dependencies": {
+    "cypress": "^8.2.0"
+  }
+}
